@@ -1,0 +1,6 @@
+In the previous section I showed that ordering lexical paraphrases of semantic relations using a simple Bayesian probability maximization method is effective at reproducing the order of frequency with which such paraphrases were produced by human volunteers. This method is only useful in situations where a list of possible paraphrases is available, but the frequency with which each is produced is not available. In real world tasks, a more common problem is to try to deduce what kind of lexical relations would be appropriate to describe the semantic relation between two words.
+
+Recruiting human annotators to provide relations is time consuming. For automatic relation exctraction, a common approach (Pantel, Kim, Nakov) has been to use a large corpus to extract relations by finding sentences in the corpus where the relation between the two words is explicit. Even with very large corpora however, coverage is poor - the number of sentences containing a useful explicit lexical relation between two specific nouns is low.
+
+[here goes statistic on coverage for google ngrams by me and another paper]
+[note - coverage for abstract relation classification systems is accuracy - 65% for 6 relations - anything bigger than this is an improvement]
